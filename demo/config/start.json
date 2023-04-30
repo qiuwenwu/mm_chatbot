@@ -1,0 +1,21 @@
+{
+	"bot": {
+		"chromium_path": ""
+	},
+	"wechat": {
+		"account": "",
+		"password": "",
+		"master": ""
+	},
+	"qq": {
+		"account": "2200839244",
+		"password": "asd159357",
+		"master": "573242395",
+		"platform": 4
+	},
+	"mqtt": {
+		"host": "",
+		"port": ""
+	},
+	"toImg_length": 125
+}

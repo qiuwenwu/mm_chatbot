@@ -1,0 +1,48 @@
+{
+	"name": "mm_chatbot",
+	"version": "1.0.1",
+	"description": "这是超级美眉QQ+微信机器人框架，用于开发个人微信聊天、群管机器人",
+	"main": "index.js",
+	"scripts": {
+		"test": "node ./demo/app.js start",
+		"login": "node ./demo/app.js login",
+		"dev": "nodemon ./demo/app.js dev"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/qiuwenwu/mm_chatbot.git"
+	},
+	"keywords": [
+		"wechat",
+		"bot",
+		"超级美眉",
+		"QQ",
+		"微信",
+		"机器人",
+		"个人微信",
+		"聊天",
+		"群管",
+		"AI"
+	],
+	"author": "邱文武",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/qiuwenwu/mm_chatbot/issues"
+	},
+	"homepage": "https://github.com/qiuwenwu/mm_chatbot#readme",
+	"dependencies": {
+		"chokidar": "^3.5.3",
+		"icqq": "^0.0.31",
+		"inquirer": "^8.0.0",
+		"marked": "^4.3.0",
+		"mm_config": "^1.0.9",
+		"mm_expand": "^1.5.4",
+		"mm_https": "^1.5.6",
+		"mm_matchs": "^1.1.3",
+		"mm_mysql": "^1.7.1",
+		"mm_tpl": "^2.1.4",
+		"puppeteer": "^19.8.0",
+		"wechat4u": "^0.7.12",
+		"wechaty": "^1.20.2"
+	}
+}

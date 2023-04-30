@@ -1,0 +1,18 @@
+{
+  "--begin--": "该设备为随机生成，丢失后不能得到原先配置",
+  "product": "ILPP-902F4",
+  "device": "83C15",
+  "board": "AE9C1",
+  "brand": "F9E8",
+  "model": "ILPP 566B",
+  "wifi_ssid": "HUAWEI-ddd5884",
+  "bootloader": "U-boot",
+  "android_id": "IL.6031560.9937",
+  "boot_id": "423e204f-b839-93ce-2296-5b89030997ae",
+  "proc_version": "Linux version 5.10.101-android12-edbe1a45",
+  "mac_address": "2D:64:52:70:B1:DC",
+  "ip_address": "192.168.91.80",
+  "imei": "869451542990055",
+  "incremental": "3EC7A2C9F4",
+  "--end--": "修改后可能需要重新验证设备。"
+}

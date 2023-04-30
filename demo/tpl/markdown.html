@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>markdown样式</title>
+		<link rel="stylesheet" href="../../../tpl/markdown.css">
+		<style type="text/css" id="markdown">
+			br {
+				display: block;
+				line-height: 0.5 !important;
+			}
+			th {
+				white-space: nowrap;
+			}
+			.markdown-body p {
+				padding: 0;
+				margin-bottom: 0.5rem !important;
+			}
+			.markdown-body h1 {
+				text-align: center;
+			}
+			
+			/* ${style} */
+		</style>
+	</head>
+	<body>
+		<div style="padding: 1rem;">
+			<article class="markdown-body">${@markdown}</article>
+		</div>
+	</body>
+</html>
